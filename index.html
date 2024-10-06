@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outfit Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login/Signup Page -->
+  <div class="login-page" id="loginPage">
+    <div class="form">
+      <h2>Login</h2>
+      <input type="text" placeholder="Username" id="username">
+      <input type="password" placeholder="Password" id="password">
+      <button onclick="login()">Login</button>
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+  </div>
+
+  <!-- Main Website Page (Initially Hidden) -->
+  <div class="main-page" id="mainPage" style="display: none;">
+    
+    <!-- Navbar -->
+    <header>
+      <div class="logo">
+        <h1>   𝒪𝒰𝒯𝐹𝐼𝒯 𝐵𝒰𝒟𝒟𝒴</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">USE AI FOR RECOMMENDATION </a></li>
+          <li><a href="#"> COMMUNITY</a></li>
+          <li><a href="#"> CHAT </a></li>
+          <li><a href="#"> PROFILE </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Make Your Daily Look Awesome</h2>
+      <p class="text">𝘿𝙞𝙨𝙘𝙤𝙫𝙚𝙧 𝙣𝙚𝙬 𝙨𝙩𝙮𝙡𝙚𝙨, 𝙚𝙭𝙥𝙧𝙚𝙨𝙨 𝙮𝙤𝙪𝙧 𝙞𝙣𝙙𝙞𝙫𝙞𝙙𝙪𝙖𝙡𝙞𝙩𝙮, 𝙖𝙣𝙙 𝙜𝙚𝙩 𝙧𝙚𝙖𝙡-𝙩𝙞𝙢𝙚 𝙖𝙙𝙫𝙞𝙘𝙚 𝙛𝙧𝙤𝙢 𝙛𝙖𝙨𝙝𝙞𝙤𝙣 𝙚𝙭𝙥𝙚𝙧𝙩𝙨.</p>
+      <button class="post-button">POST YOUR OUTFIT </button>
+    </section>
+
+    <!-- Featured Look Section -->
+    <section class="featured-look">
+      <h3>Featured Look of the Day</h3>
+      <p>Check out today's top recommended look curated by our AI and community experts.</p>
+    </section>
+
+    <!-- Trending Fashion Section -->
+    <section class="trending-section">
+      <h3>Trending Fashion</h3>
+      <div class="trend-item">
+        <p>BOLD PATTERNS</p>
+      </div>
+      
+      <div class="trend-item">
+        <p>MINIMILIASTIC ACCESSORIES</p>
+      </div>
+      <div class="trend-item">
+        <p> PUFFER JACKETS </p>
+      </div>
+      <div class="trend-item">
+        <p>MONOCROMATIC LOOKS </p>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h3>User Testimonials</h3>
+      <p>"Outfit Buddy helped me improve my style! I love the AI recommendations!"</p>
+      <p>"Great platform for finding the perfect look for any occasion!"</p>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
